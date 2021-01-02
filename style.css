@@ -1,0 +1,288 @@
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: minecraftia;
+  background: url(bg1.jpg);
+  background-size: 100%;
+  height: calc(100vh - 80px);
+  background-attachment: fixed;
+}
+nav{
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
+}
+label.logo{
+  color: white;
+  /*font-size: 35px;*/
+  line-height: 80px;
+  padding: 0 100px;
+  /*font-weight: bold;*/
+}
+img.logo1 {
+  width: 96.6px;
+  height: 16.6px;
+  /*margin-top: 20px;*/
+}
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: white;
+  font-size: 10px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+nav ul ul {
+  position: absolute;
+  top: 85px;
+  border-top: 3px solid #00ff00
+}
+nav ul ul li {
+  width: 150px;
+  display: list-item;
+  position: relative;
+  background-color: #00ff00;
+  border: 1px solid #00ff00;
+}
+a.active,a:hover{
+  background: #1b9bff;
+  transition: .5s;
+}
+.checkbtn{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+#check{
+  display: none;
+}
+/*----------Main-----------*/
+.main h2 {
+  /*font-size: 30px;*/
+  text-align: center;
+  color: #fff;
+  /*background-color: #2f4f4f;*/
+}
+.main h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.main p {
+  color: #fff;
+  /*margin-left: 60px;*/
+  margin-bottom: 400px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.maintitle h1 {
+  text-align: center;
+  color: #fff;
+  background-color: #2f4f4f
+}
+.main2 h2 {
+  text-align: center;
+  color: #fff
+}
+.main2 {
+  background-color: #fff5ee;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main2 h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  background-color: #2f4f4f;
+}
+.main2 img {
+  height: 300px; 
+  width: 300px;
+}
+.main3 {
+  background-color: #fff5ee;
+  height: 500px;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+.main3 h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  color: #fff;
+  background-color: #2f4f4f;
+}
+.main3 img {
+  height: 300px; 
+  width: 300px;
+}
+
+/*----------Footer----------*/
+.footer {
+  background-color: #708090;
+  height: 270px;
+  padding: 40px;
+}
+.footer-list {
+  float: right;
+}
+.footer-list li {
+  padding-bottom: 10px;
+  color: #fff;
+}
+
+/*----------Section----------*/
+section{
+  /*margin-bottom: 30px;*/
+}
+/*---------- ----------*/
+
+
+
+
+
+
+
+
+
+/*----------Mobile----------*/
+ /*-----952px-----*/
+@media (max-width: 952px){
+  label.logo{
+    font-size: 15px;
+    padding-left: 50px;
+  }
+  div.container {
+    display: relative;
+  }
+  nav {
+    position: fixed;
+    top: 0;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  div.main {
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    margin-top: 75px;
+  }
+  div.main p {
+    margin-bottom: 20px;
+    /*text-align: left;*/
+  }
+  div.maintitle h1 {
+    font-size: 15px;
+  }
+  div.main2 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #fff5ee;
+    height: 120px;
+    width: 100%;
+  }
+  div.main2 h2 {
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    background-color: #2f4f4f;
+    width: 100%;
+  }
+  div.main2 img {
+    width: 80px;
+    height: 80px;
+  }
+  div.main3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: #fff5ee;
+    height: 120px;
+    width: 100%;
+  }
+  div.main3 h2 {
+    text-align: center;
+    font-size: 10px;
+    color: #fff;
+    background-color: #2f4f4f;
+    width: 100%;
+  }
+  div.main3 img {
+    width: 80px;
+    height: 80px;
+  }
+  div.footer {
+    height: 100px;
+    padding: 40px;
+  }
+  div.footer-list {
+    /*float: right;*/
+  }
+  div.footer-list ul {
+    /*padding-bottom: 10px;*/
+    color: #fff;
+    text-align: center;
+  }
+}
+
+
+ /*-----858px-----*/
+@media (max-width: 858px){
+  .checkbtn{
+    display: block;
+  }
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+    display: block;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #0082e6;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+}
