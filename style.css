@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: "Bebas-Neue";
+  font-family: "Bebas Neue";
   background: url(bg1.jpg);
   background-size: 100%;
   height: calc(100vh - 80px);
