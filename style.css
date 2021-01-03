@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body{
-  font-family: minecraftia;
+  font-family: "Bebas-Neue";
   background: url(bg1.jpg);
   background-size: 100%;
   height: calc(100vh - 80px);
